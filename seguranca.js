@@ -1,5 +1,5 @@
 
-const { pool } = require('../config')
+const { pool } = require('./config')
 const { request, response, next } = require('express')
 
 require("dotenv-safe").config();

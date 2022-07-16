@@ -15,7 +15,7 @@ app.use(express.urlencoded());
 app.use(cors());
 
 // importando o controle de segurança
-const seguranca = require('./controladores/seguranca')
+const seguranca = require('./seguranca')
 
 const editorasServiceProxy = httpProxy('https://editoras.herokuapp.com/');
 const livrosServiceProxy = httpProxy('https://livrosapi.herokuapp.com');
